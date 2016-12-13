@@ -32,6 +32,7 @@ class App extends Component {
   animate () {
     // Use this.state.drops.map to return a new array of modified positions (e.g. y + 1)
     // then set that array with this.setState({ drops: thatArray })
+    this.state.drops.map = (this.setState)
   }
 
   render () {
