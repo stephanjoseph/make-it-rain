@@ -25,7 +25,7 @@ class App extends Component {
 
   clickHandler () {
     // Use this.setState to add a new item into drops { x: random, y: 0 }
-    this.setState = (this.drops)
+    this.setState = (this.dropsm)
     console.log('Clicked!')
   }
 

@@ -1,0 +1,21 @@
+button.rain {
+  position: absolute;
+  bottom: 4em;
+  font-size: 1em;
+}
+
+.drops {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.drop {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  background-color: lightblue;
+}
