@@ -25,14 +25,15 @@ class App extends Component {
 
   clickHandler () {
     // Use this.setState to add a new item into drops { x: random, y: 0 }
-    this.setState = (this.dropsm)
-    console.log('Clicked!')
+    const drops = this.state.drops.map((drop) => {
+      return { x: drop.x, y: drop.y + 1 }
+          console.log('Clicked!')
   }
 
   animate () {
     // Use this.state.drops.map to return a new array of modified positions (e.g. y + 1)
     // then set that array with this.setState({ drops: thatArray })
-    this.state.drops.map = (this.setState)
+    this.setState({ drops: drops })
   }
 
   render () {
